@@ -21,7 +21,10 @@
     % popup = True
     % content_id = 'popupContent'
 % end
-% #print ('Inicio de List_field:', 'name', name, 'popup', popup, 'list_edit_mode', list_edit_mode, 'content_id', content_id)
+% print ('Inicio de List_field:', 'name', name, 'popup', popup, 'list_edit_mode', list_edit_mode, 'content_id', content_id)
+% if popup:
+    % list_edit_mode = 'popup'
+% end
 % if list_field:
     % if not recalled:
         <div class="small-{{cols}} medium-{{cols}} large-{{cols}} columns list_widget" id="{{name}}">
@@ -103,10 +106,8 @@
                         <i class="fi-plus"></i>
                     </a>
                 %elif list_edit_mode == 'popup':
-                    %#print ('-------------------------------------------------------------------------------------------------popup')
-                    <a class="button tiny radius success" href="#" onclick="formEdit(key='None', name='{{name}}', action='form_edit_popup', content_id='popupContent');">
-                        <i class="fi-plus"></i>
-                    </a>
+                    %print ('-------------------------------------------------------------------------------------------------popup')
+                    <a href="#"></a>
                 %elif list_edit_mode == 'newwin':
                     %#print ('-------------------------------------------------------------------------------------------------newwin')
                     <a class="button tiny radius success" href="#" onclick="editNewWin(key='None', name='{{name}}', content_id='content');">
@@ -187,9 +188,8 @@
                         <i class="fi-pencil"></i>
                     </a>
                 %elif list_edit_mode == 'popup':
-                    <a class="tiny button radius warning" href="#" onclick="formEdit(key='{{key}}', name= '{{name}}',action= 'form_edit_popup', content_id = 'popupContent');">
-                        <i class="fi-pencil"></i>
-                    </a>
+                    %print('estou no template em linhas e sou popup')
+                    <a href="#"></a>
                 %elif list_edit_mode == 'newwin':
                     <a class="button tiny radius warning" href="#" onclick="editNewWin(key='{{key}}', name='{{name}}', content_id='content');">
                         <i class="fi-pencil"></i>
