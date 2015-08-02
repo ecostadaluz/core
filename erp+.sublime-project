@@ -1,0 +1,34 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "python -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/var/www/sicuve"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/var/www/ada"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/var/www/bar"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/var/www/pos"
+		}
+	]
+}

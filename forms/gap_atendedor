@@ -1,0 +1,277 @@
+    % setdefault('user_balcao', '')
+    % setdefault('user_estado', '')
+    % setdefault('clientes_espera', [])
+    % setdefault('senha', '')
+    % setdefault('manuais', [])
+    % setdefault('legislacoes', [])
+    % setdefault('checklists', [])
+    % setdefault('faqs', [])
+    % setdefault('servicos', [])
+    % setdefault('fluxos', [])
+    % setdefault('servico_em_Atendimento', '')
+    % setdefault('row_manual', 0)
+    <link rel="stylesheet" href="/static/css/gap.css" />
+        <section role="main">
+            <br>
+            <div  class="">
+                <div class="small-12 medium-12 large-12 columns" id="DivAllContent">
+                    <div class="small-9 columns">
+                        <div class="large-12 columns" >
+                            <ul class="button-group">
+                                <li><a id="BtChamar" class="button tiny" onclick="chamar_senha();"><b id="LBotao">Chamar</b></a></li>
+                                <li><a id="BtChamarPS2" data-reveal-id="ModalCS" class="button tiny" ><b id="LBotao">Chamar por senha</b></a>
+                                    <div id="ModalCS" class="reveal-modal"  data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                                        <div data-alert  id="ModalCSmessage_container" style="display:none" class="alert-box info radius">
+                                        <div id="ModalCSmessage" style="color:black;"></div>
+                                        <a href="#" class="close">&times;</a>
+                                        </div>
+                                        <h5 id="modalTitle">Introduza a Senha que pretende Chamar:</h5>
+                                        <hr />
+                                        <div class="row collapse">
+                                            <div class="large-4 small-9 columns" style="padding-right: 5px;">
+                                                <input  id="numero_senha"  type="text" style="height: 52px;" placeholder="Ex: B115">
+                                            </div>
+                                            <div class="large-2 small-3 columns ">
+                                                <a id="BtChamarPS" class="button" onclick="chamar_por_senha();">Chamar</a>
+                                            </div>
+                                            <div class="large-4">
+                                            </div>
+                                        </div>
+                                        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                                    </div>
+                                </li>
+                                <li><a  id="BtIntervalo" class="button tiny" onclick="fazer_intervalo();"><b id="LBotao">Fazer Intervalo</b></a></li>
+                                <li><a  id="BtTerminar" class="button tiny" onclick="terminar_atendimento();"><b id="LBotao">Terminar Atendimento</b></a></li>
+                                <li><a  id="BtRechamar" class="button tiny" onclick="rechamar_senha();"><b id="LBotao">Rechamar</b></a></li>
+                                <li><a  id="BtTransferir" class="button tiny" ><b id="LBotao">TransferirSenha</b></a></li>
+                                <li><a  id="BtEspera" data-reveal-id="ModalEspera" class="button tiny"><b id="LBotao">Mandar Esperar</b></a>
+                                <div id="ModalEspera" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+                                        <h5 id="modalTitle">Adicionar Cliente a Lista de Espera:</h5>
+                                        <hr />
+
+                                        <div class="row collapse">
+                                            <div class="small-12 columns" style="padding-right: 5px;">
+                                                <label>Introduza um comentário
+                                                    <textarea id="comentario" placeholder="Comentario Aqui"></textarea>
+                                                </label>
+                                                <a  id="BtComentario" class="button" onclick="espera_senha();" >Concluir</a>
+                                            </div>
+                                        </div>
+
+                                        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+                                    </div>
+                                </li>
+                                <li><a  id="BtTerminarsenha" class="button tiny" onclick="terminar_senha();"><b id="LBotao">Terminar Senha</b></a></li>
+                                <li><a  id="BtDesistir" class="button tiny" onclick="desistir_senha();"><b id="LBotao">Desistir</b></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="large-3 medium-3 columns">
+                            <div class="large-9 columns" style="padding-right: 0px;">
+                            <input type="text"  style="height: 36px;" placeholder="Ex: Documento" >
+                        </div>
+                        <div class="large-3 columns" style="padding-left: 0px;">
+                            <a href="#" class="button tiny" style="padding-left: 0px; height: 36px">Search</a>
+                        </div>
+                    </div>
+
+                    <div  class="small-9 medium-9 columns">
+
+                        <div id="DivInformativo"  class=" small-12 medium-12 large-12 columns">
+                        <br>
+                            <div id="gap_fluxo">
+                            %for fluxo in fluxos:
+                            %fluxo = str(fluxo).split(';')
+                                %if (str(fluxo[1]) == str(servico_em_Atendimento)):
+                                         <a href="#" class="button tiny radius">{{fluxo[0]}}</a> <img src="/static/images/ico/glyphicons_217_circle_arrow_right.png">
+                                %end
+                            %end
+                            <a href="#" class="button tiny radius">Concluido</a><img src="/static/images/ico/glyphicons_206_ok_2.png">
+                            </div>
+                            <br/>
+                        </div>
+
+                        <div id="DivTransfSenha" class=" small-12 medium-12 large-12 columns">
+                            <ul class=" button-group">
+                                <br>
+                                <h4>Transferir para:</h4>
+                                 %for servico in servicos:
+                                        %servico = str(servico).split(';')
+                                         <li><a href="#" class="button tiny" onclick="transferir_senha('{{!servico[0]}}','{{!servico[1]}}');" ><b id="LBotao">Serviço {{!servico[1]}}</b></a></li>
+                                %end
+                            </ul>
+                           <hr />
+                        </div>
+                        <div id="DivConteudo" class=" large-12 medium-12 columns">
+                            <ul class="tabs" data-tab>
+                                <li class="tab-title active"><a href="#panel0" ><b>Check List</b></a></li>
+                                <li class="tab-title"><a href="#panel1"><b>FAQ'S</b></a></li>
+                                <li class="tab-title"><a href="#panel2"><b>Legislação</b></a></li>
+                                <li class="tab-title"><a href="#panel3"><b>Manuais</b></a></li>
+                                <li class="tab-title"><a href="#panel4"><b>Outros</b></a></li>
+                            </ul>
+                            <div class="tabs-content">
+                                <div class="content active" id="panel0">
+                                    <div class="small-12  medium-12 columns">
+                                        <h4>Requisitos necessários para este serviço</h4>
+                                        <hr />
+                                        <!---------------------------------------------- Formulário -------------------------------------------->
+                                        %for checklist in checklists:
+                                        %checklist = str(checklist).split('-')
+                                        %if (str(checklist[1]) == str(servico_em_Atendimento)):
+                                                <div class="row">
+                                                    <input id="checkbox1" type="checkbox"><label for="checkbox1"><h5>{{!checklist[0]}}</h5>
+                                                </div>
+                                            %end
+                                        %end
+                                        <div class="small-6 medium-6 large-6 small-centered medium-centered large-centered columns">
+                                            <ul class="button-group even-2">
+                                                <li><a href="#" class="button tiny"><b id="LBotao">Gravar</b></a></li>
+                                                <li><a href="#" class="button tiny"><b id="LBotao">Cancelar</b></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content " id="panel1">
+                                    <h4>Perguntas mais frequentes: </h4>
+                                    <hr />
+                                    <ul class="accordion" data-accordion role="tablist">
+                                            %count = 0
+                                            %for faq in faqs:
+                                                %faq = str(faq).split('-')
+                                                %if (str(faq[2]) == str(servico_em_Atendimento)):
+                                                            <li class="accordion-navigation">
+                                                                <a href="#panel{{count}}d" role="tab" id="panel{{count}}d-heading" aria-controls="panel{{count}}d">{{!faq[0]}}</a>
+                                                                <div id="panel{{count}}d" class="content" role="tabpanel" aria-labelledby="panel{{count}}d-heading">
+                                                                    {{!faq[1]}}
+                                                                </div>
+                                                                    %count+=1
+                                                            </li>
+                                                    %end
+                                                %end
+                                    </ul>
+                                </div>
+                                <div class="content" id="panel2">
+                                    <h4>Introduza o nome de uma legislação: </h4>
+                                    <hr/>
+                                    <div class="row collapse">
+                                        <div class="large-8 small-9 columns">
+                                            <input type="text" placeholder="Ex: Documento">
+                                        </div>
+                                        <div class="large-3 small-3 columns ">
+                                            <a href="#" class="button">Procurar</a>
+                                        </div>
+                                    </div>
+                                    <ul class="side-nav">
+                                        %for legislacao in legislacoes:
+                                        %legislacao = str(legislacao).split(";")
+                                        <li><a href="#" onclick="window.open('{{!legislacao[1]}}', '_blank', 'fullscreen=yes'); return false;">{{!legislacao[0]}}</a></li>
+                                        %end
+                                    </ul>
+                                </div>
+                                <div class="content" id="panel3">
+                                    <h4>Manuais de Apoio: </h4>
+                                    <hr/>
+                                    <ul class="side-nav">
+                                         %count=0
+                                         %mylimit=0
+                                         %for manual in manuais:
+                                         %manual=str(manual).split(";")
+                                         %if count == page:
+                                                %if mylimit < limit:
+                                                     <li><a href="#" onclick="window.open('{{!manual[1]}}', '_blank', 'fullscreen=yes'); return false;">{{!manual[0]}}</a></li>
+                                                     %mylimit+=1
+                                                %end
+                                            %end
+                                         %else:
+                                             %mylimit+=1
+                                             %if(mylimit==limit):
+                                                    %mylimit = 0
+                                                    %count+=1
+                                                %end
+                                          %end
+                                    </ul>
+                                    %pages_count = int(int(row_manual)/int(limit))
+                                    %actual_page = int(page)
+                                    <ul class="pagination">
+                                       <li class="arrow"><a href="#" onclick="">&laquo;</a></li>
+                                            %if actual_page > 0:
+                                                <li class="arrow unavailable"><a href="#" onclick="">&lt;</a></li>
+                                    %end
+                                     %if pages_count >= int(actual_page) + int(limit):
+                                            %final_page = int(actual_page) + int(limit)
+                                        %else:
+                                            %final_page = pages_count
+                                        %end
+
+                                        %print ('final_page', final_page)
+
+                                        %for p in range(actual_page, final_page + 1):
+                                            %if p == actual_page:
+                                                <li class="current"><a href="#" onclick="changepage('{{str(p)}}')"><b>{{str(p)}}</b></a></li>
+                                            %else:
+                                                <li><a href="#" onclick="changepage('{{str(p)}}')">{{str(p)}}</a></li>
+                                            %end
+                                        %end
+
+                                        %if actual_page < pages_count:
+                                                <li><a href="#" onclick="">&gt;</a></li>
+                                                <li class="arrow"><a href="#" onclick="">&raquo;</a></li>
+                                        %else:
+                                                <li><a href="#">&gt;</a></li>
+                                                <li class="arrow"><a href="#">&raquo;</a></li>
+                                        %end
+                                        <input  name="page"  id="page" type="hidden" value="{{page}}" ></input>
+                                    </ul>
+                                </div>
+                                <div class="content" id="panel4">
+                                    <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="DivEspera"  class="large-3 medium-3 columns">
+                        <div>
+                            <br>
+                            <div class="content " id="panelEspera">
+                            <h5>Clientes em espera</h5>
+                            <hr />
+                                         %countEspera=0
+                                         %for cliente_espera in clientes_espera:
+                                             %cliente_espera= cliente_espera.split(";")
+                                                        <ul class="vcard">
+                                                        <li class="fn" id="senhaBackGround"> <p id="SenhaEspera{{countEspera}}" style="color:white" value="{{!cliente_espera[0]}}">Senha {{!cliente_espera[0]}}</p></li>
+                                                        <li class="street-address"> {{!cliente_espera[1]}} </li>
+                                                        <li class="street-address">Tempo:<span id="timer{{countEspera}}" value="{{!cliente_espera[2]}}">{{!cliente_espera[2]}}</span>sec</li>
+                                                        <li><a onclick="chamar_senhaEspera('{{!cliente_espera[0]}}','timer{{countEspera}}');" >Chamar</a></li>
+                                                    </ul>
+                                         %countEspera+=1;
+                                    %end
+                                    <input  name="countEspera"  id="countEspera" type="hidden" value="{{countEspera}}" ></input>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+            <br>
+            <footer class="panel large-12 columns"  id="gap_footer">
+                <div class="large-8 columns right">
+                    <input  name="user_estado"  id="user_estado" type="hidden" value="{{user_estado}}" ></input>
+                    <h6 style="text-align: right; color: #F9F9F9;">Balcão: {{!user_balcao}} | Atendedor: {{!user_name}} | Tempo Atendimento:  <span id="timer">00:00:00</span>sec</h6>
+                </div>
+                <div class="large-2 columns left">
+                    <h6 style="text-align: left; color: #F9F9F9;">&copy; CVTek 2015</h6>
+                </div>
+                <div class="large-2 columns left">
+                    <input  name="senha"  id="senha" type="hidden" value="{{senha}}" ></input>
+                    <h6 id="Divsenha" style="text-align: left; color: deeppink;" />
+                </div>
+            </footer>
+        </section>
+        <script src="/static/js/jquery.js"></script>
+        <script src="/static/js/gap.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
