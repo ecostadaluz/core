@@ -42,20 +42,20 @@ O LICENCIADO é integralmente responsável pelas informações inseridas no PROG
 
 O LICENCIANTE, pode a qualquer tempo, suspender ou retirar qualquer SOFTWARE que esteja desrespeitando as regras de conteúdo aqui estabelecidas ou as normas legais em vigor, sem qualquer devolução de quantias pagas pelo LICENCIADO.
 
-Sendo desrespeitada qualquer regra aqui estabelecida ou sendo verificada ilegalidade, o LICENCIANTE se reserva do direito de excluir o SOFTWARE além de suspender o direito da mesmo LICENCIADO de adquirir novo SOFTWARE do LICENCIANTE. 
+Sendo desrespeitada qualquer regra aqui estabelecida ou sendo verificada ilegalidade, o LICENCIANTE se reserva do direito de excluir o SOFTWARE além de suspender o direito do mesmo LICENCIADO de adquirir novo SOFTWARE do LICENCIANTE.
 Em caso de não pagamento dos valores contratados, fica o LICENCIADO sujeito a interrupção temporária ou o cancelamento definitivo dos serviços prestados pelo LICENCIANTE.
 
 Regras para utilização do sistema: As seguintes regras devem ser obedecidas pelo LICENCIADO, visando o bom e perfeito funcionamento do(s) PROGRAMA(s) (programa de computador, programa, software, sistema ou ERP) sendo expressamente proibida a execução de qualquer dos seguintes actos:
 
 - Fazer engenharia reversa, descompilar, copiar imagens, códigos ou quaisquer partes do SOFTWARE para utilização fora dele.
-- Alugar, arrendar, atribuir ou transferir o produto licenciado. 
-- Modificar o produto ou mesclar todas ou qualquer de suas partes com outro programa. 
+- Alugar, arrendar, atribuir ou transferir o produto licenciado.
+- Modificar o produto ou mesclar todas ou qualquer de suas partes com outro programa.
 - Remover ou alterar qualquer aviso de copyright, marca registrada, ou outro aviso de direitos de propriedade colocados no SOFTWARE ou em parte do mesmo.
 
 Em nenhuma hipótese o LICENCIADO terá acesso ao código fonte do SOFTWARE ora licenciado, por este se tratar de propriedade intelectual do LICENCIANTE.
 
-Suporte Técnico: O Suporte Técnico fornecido ao LICENCIADO limita-se a esclarecimentos sobre o funcionamento do SOFTWARE e sua operação, assim sendo, pressupõe-se o mínimo de conhecimento do uso do computador por parte do(s) usuário(s), o que inclui o uso do computador e suas funções, o uso do sistema operacional sob o qual o sistema irá trabalhar, e do assunto que o SOFTWARE se propõe a resolver. Pressupõe-se também uma configuração adequada do computador no que se refere a utilização do SOFTWARE adquirido e o bom estado de funcionamento deste computador. O Suporte Técnico limita-se ao atendimento aos clientes, não estando incluídos neste serviço ligações telefônicas, que correm sempre por conta do LICENCIADO. O Suporte Técnico do LICENCIANTE garante atendimento gratuito ao LICENCIADO que possui seu SOFTWARE, resumidamente, nos seguintes itens: 
-- Suporte técnico via telefone em horário comercial para utilização dos recursos constantes no SOFTWARE; 
+Suporte Técnico: O Suporte Técnico fornecido ao LICENCIADO limita-se a esclarecimentos sobre o funcionamento do SOFTWARE e sua operação, assim sendo, pressupõe-se o mínimo de conhecimento do uso do computador por parte do(s) usuário(s), o que inclui o uso do computador e suas funções, o uso do sistema operacional sob o qual o sistema irá trabalhar, e do assunto que o SOFTWARE se propõe a resolver. Pressupõe-se também uma configuração adequada do computador no que se refere a utilização do SOFTWARE adquirido e o bom estado de funcionamento deste computador. O Suporte Técnico limita-se ao atendimento aos clientes, não estando incluídos neste serviço ligações telefônicas, que correm sempre por conta do LICENCIADO. O Suporte Técnico do LICENCIANTE garante atendimento gratuito ao LICENCIADO que possui seu SOFTWARE, resumidamente, nos seguintes itens:
+- Suporte técnico via telefone em horário comercial para utilização dos recursos constantes no SOFTWARE;
 - Suporte técnico via e-mail suporte@wit.cv para pedidos de programação do SOFTWARE e suporte a utilização dos recursos constantes no SOFTWARE.
 O Suporte técnico fornecido pelo LICENCIANTE não abrange a conexão com a internet, rede interna e computadores do LICENCIADO.
 
@@ -75,9 +75,10 @@ No caso de cancelamento de serviços em que o LICENCIADO possui débitos, estes 
 
 Condições Diversas: Fica estabelecido também que o LICENCIANTE empregará sempre seus melhores esforços na manutenção e na evolução tecnológica do SOFTWARE. No caso de interrupção do funcionamento do SOFTWARE, o LICENCIANTE se compromete a repor o igual período da interrupção ao término do prazo estipulado. Em hipótese alguma o LICENCIANTE será responsável por lucros cessantes, indenizações de qualquer espécie, danos comerciais, especiais, acidentais, consequências ou outros diretos ou indiretos.
 
-O LICENCIANTE se reserva do direito de modificar este contrato de acordo com sua necessidade, com intuito de preservar sua propriedade intelectual e o bom funcionamento de todo o sistema. 
+O LICENCIANTE se reserva do direito de modificar este contrato de acordo com sua necessidade, com intuito de preservar sua propriedade intelectual e o bom funcionamento de todo o sistema.
 Foro de eleição: Fica eleito, desde já, com exclusão de qualquer outro, por mais privilegiado que seja, o foro Comarca da Praia, para dirimir toda e qualquer dúvida ou pendência oriunda deste contrato.
 
-WIT Lda.
-Achada de Santo António 
-Tel.: 9936987/9125332 - www.wit.cv
+CvTek Lda.
+Achada de Santo António
+www.cvtek.cv
+info@cvtek.cv
