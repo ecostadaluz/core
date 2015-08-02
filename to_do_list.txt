@@ -1,0 +1,74 @@
+criar o menu "admin" que dá acesso a funcionalidades como acesso a comandos de sistema, ver e modificar objectos, etc
+
+
+por algum motivo guias de entrada cujo numero termine em 00 não aparecem na caixa e dão blue
+
+o gera periodos está lixado, alem disso devia ser automático por cópia do ano anterior e tem que prever o sistema de periodos trimestrais
+
+
+Em pagamento não está a suportar mais do que um metodo de pagamento no mesmo documento
+
+
+O filtro da pesquisa também.
+Ao criar um campo choice_field, onde no código elaboramos a nosa query de pesquisa na BD, onda deveria aparecer na lista do choice_field o resultado da nossa query. No inicio aparece-nos somente os resultados da query, mas se clicar-mos no botão pesquisa, a nossa query (select) é ignorada e é nos apresentado todos os registo da base de dados.
+
+- Quando adicionamos um registo num 'list_field', e este 'list_field' abre no modo Edit. Na base de dados o campo 'parent' não é prenchido (acho que se perde o 'id' do parente quando se abre uma nova página para criar o registo do 'list_field' no modo Edit). Mudando o modo de abrir para 'inline', o campo 'parent' é preenchido.
+
+no modulo de repartições de finanças criamos uma list_field
+ele  so esta a funcionar como popup
+
+caso colocarmos para ele abrir como “inline” da erro
+
+- o list_field está a obrigar a que o nome do campo seja o do modelo
+- as listas tem que suportar o campo de imagem e de upload, onde aparece a imagem em si ou o nome do ficheiro com link se for upload, em edit se for inline deve trocar para o campo de upload mesmo!
+- o many2many tem que permitir acrescentar informação à relação, ou seja outros campos onde podemos colocar informações associadas à relação
+
+- fazer campo link que permite colocar links no formulário, devem poder ser fixos ou dinamicos, dependendo de função!
+- o browser de ficheiros deve carregar em modal e não em nova tab
+
+Quando  abrimos um popup e preenchermos os dados, deveria fazer um reload di formulario por tras.
+pesquisa - melhorar
+
+app
+
+Quanto ao trabalho propriamente dito, aqui vai:
+Todos os novos icons, criados para um perfil de Julia.Admin / Jose.Admin etc...
+e se possivel (fechar a cadeado) os meses anteriores para mais ninguem poder alterar ( ficar so eu como utilizadora total de toda a plataforma), com visualizacoes para os outros Admin, mas se estiver fechada, ja mais ninguem podera mexer.
+
+Quantos aos relatorios, gostaria de saber:
+Qual o produto mais vendido por,  um dia, no mes e no ano.
+Fazer uma avaliaçao de stocks por produto, por semana, mes ou ano.
+Fazer um relatorio das rendas, total num mes, total ano. valor em falta de pagamento, datas de recebimentos ( medias).
+Fazer o cruzamento com as caixas virtuais, os bancos e as vendas.
+Fazer analise do centro de custos, quais, quanto e onde.
+
+Gestão de Bancos
+conta_banco
+nome, numero, nib, iban, swift, agencia, banco
+movimento_banco
+data, data_valor, descricao, doc, num_doc, debito, credito, mov_contab
+movimento_banco_contab
+data, data_valor, descricao, doc, num_doc, debito, credito, mov_banco
+
+Salários
+recibos de salário
+livro de ponto para registo de faltas, licenças, férias e horas extra.
+configuração de remunerações/descontos
+contratos
+processamento automático, possíveis correções serão direto no recibo
+
+Rendas
+contrato sobre parcelas
+recibos de renda
+conta corrente
+Notas de divida
+
+Activos
+Lança, imobilizado, corpóreo e incorpóreo incluindo as parcelas a arrendar
+
+Folha de Vendas (não DB, apenas View com emissão de report com descriminado e totais por método de pagamento)
+
+Rever a sequencia, deveria garantir que conseguiu ler o ultmo numero e não criar outra sequencia se não o conseguir, eventualmente podemos ver pelo tipo de resultado que o postgres devolva
+
+
+o modal tem que permitir definir o tamanho
