@@ -568,7 +568,7 @@ def licence():
     ctx_dict['name'] = 'licence'
     ctx_dict['title'] = 'Licença'
 
-    licence_file = open('/var/www/licence.txt', 'r', encoding='utf8')
+    licence_file = open('/var/www/core/help/licence.txt', 'r', encoding='utf8')
     code = """
         <textarea rows="30" class="small-12 large-12 columns">
     """

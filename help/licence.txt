@@ -1,0 +1,83 @@
+CONTRATO DE LICENÇA DE USO DE SOFTWARE
+
+Partes Contratantes: São partes neste CONTRATO DE LICENÇA DE USO DE SOFTWARE, na qualidade de LICENCIANTE, a empresa WIT, Lda., com sede na Achada de Santo antónio da cidade da Praia, e na qualidade de LICENCIADO, o adquirente da presente LICENÇA DE USO DE SOFTWARE devidamente identificado na documentação comercial (proposta comercial ou pedido ou Factura) que acompanha a aquisição desta LICENÇA DE USO DE SOFTWARE.
+
+Esta LICENÇA DE USO deve ser lida com atenção antes do SOFTWARE ser utilizado. A utilização do SOFTWARE, mesmo que parcial ou a título de teste, indica que o LICENCIADO está ciente dos termos desta LICENÇA DE USO DE SOFTWARE, concordando com os mesmos. Em caso de discordância dos termos aqui apresentados, a utilização do SOFTWARE deve ser imediatamente interrompida. Esta LICENÇA DE USO DE SOFTWARE se encontra também publicada dentro do próprio SOFTWARE.
+
+Este CONTRATO DE LICENÇA DE USO DE SOFTWARE representa a prova de LICENÇA DE USO e deve ser tratado como propriedade valiosa.
+
+O software objeto desta LICENÇA DE USO, nesta LICENÇA DE USO, pode ser tratado também pela denominação de programa de computador, programa, software, sistema ou ERP.
+
+Concessão da LICENÇA DE USO: O LICENCIANTE, proprietário dos direitos do software objeto deste contrato, neste ato e pela melhor forma de direito, outorga o LICENCIADO uma LICENÇA DE USO, em caráter não exclusivo e não transferível, para utilização, do programa de computador, objeto desta LICENÇA DE USO, disponibilizado o LICENCIADO para que o utilize via internet ou na sua própria infraestrutura, respeitando os termos constantes desta LICENÇA DE USO.
+
+Adesão ao Contrato: A aceitação deste CONTRATO se concretiza na ocasião da utilização, mesmo que parcial ou a título de teste do SOFTWARE, ou na aquisição desta LICENÇA DE USO DE SOFTWARE, feita eletronicamente através da internet ou através de pedido direto ao LICENCIANTE ou a um dos seus representantes.
+
+Descrição do sistema/software:
+
+PLANO VENDA: O LICENCIADO terá direito de uso perpectuo do software na forma em que ele lhe foi disponibilizado, actualizações, modificações e suporte deverão ser pagos mediante acordo entre as partes. poderá ser negociado um contrato para estes serviços que não entra no entanto no foro desta Licença.
+
+PLANO ALUGUEL: O LICENCIADO terá direito ao uso deste software durante o periodo Licenciado devendo de imediato renovar a licença mediante o pagamento dos valores acordados, esta modalidade dá ao LICENCIADO direito a acesso a Backups, actualizações, e suporte, eventuais modificações podem ser contratadas fora do ambito deste contrato.
+
+Normas e condições gerais:
+
+O SOFTWARE é disponibilizado pela LICENCIANTE para utilização do LICENCIADO. Para que o LICENCIADO possa utilizar o SOFTWARE se faz necessário que o mesmo esteja devidamente instalado e mantido hospedado em um servidor de internet da LICENCIANTE ou outro por ela homologado no caso de o mesmo ser disponibilizado via Web, ou no servidor do LICENCIADO caso seja esta a modalidade escolhida.
+
+O LICENCIADO deve pagar ao LICENCIANTE um valor referente à utilização do SOFTWARE Licenciado. Na modalidade de disponibilização via Internet Os serviços de hospedagem do sistema ora contratado são de responsabilidade da empresa prestadora de serviço contratada e homologada pela LICENCIANTE. A LICENCIANTE poderá contratar outro provedor de serviços de hospedagem a qualquer momento, sem a prévia consulta do LICENCIADO. O LICENCIADO não pode hospedar o SOFTWARE em outro servidor a não ser que a modalidade contratada seja a de disponibilização do sistema na infraestrutura do LICENCIADO.
+
+Os valores dos serviços e recursos oferecidos pelo LICENCIANTE podem ser corrigidos anualmente concoante conste na proposta comercial.
+
+O valor para utilização do SOFTWARE cobrado pelo LICENCIANTE está definido na proposta comercial de aquisição da LICENÇA DE USO e pode sofrer modificações se o LICENCIADO optar por outro serviço oferecido pelo LICENCIANTE.
+
+O LICENCIANTE poderá realizar o bloqueio, suspensão e até o cancelamento dos serviços, na hipótese do não pagamento pelos serviços prestados após 15 dias do vencimento. Caso o CONTRATANTE efectue pagamento que não seja através de transferencia bancário (ex: depósito direto em conta), o mesmo deverá informar por escrito todos os dados relativos ao depósito realizado e o LICENCIANTE poderá incluir em vencimento futuro a diferença referente a multa ou juros, caso o mesmo seja devido. O LICENCIADO pode após liquidação dos valores devidos e na possibilidade de não querer continuar o serviço requerer uma cópia fisica da base de dados, caso deseje continuar o serviço a conta será simplesmente desbloqueada.
+
+Os valores referentes aos pagamentos dos serviços ora contratados são cobrados antecipadamente. Os valores referentes a outros serviços opcionais contratados são cobrados após a realização de cada um deles ou mediante o constante da proposta comercial.
+
+Os valores referentes a serviços de homologação, instalações, configurações, manutenções e outros solicitados futuramente pelo LICENCIADO serão previamente orçamentados e comunicados ao LICENCIADO através de nova proposta comercial. Novos serviços somente serão executados mediante a aprovação de suas respectivas propostas.
+
+As partes contratantes deverão manter sigilo e ética profissional das informações e atividades, tomando todas as medidas cabíveis para que tais informações somente sejam divulgadas a aquelas pessoas que dela dependam para execução dos serviços a menos que haja autorização prévia para divulgação.
+
+O LICENCIANTE poderá utilizar os dados cadastrais fornecidos pelo LICENCIADO para envio de mails directos e correspondências, através de qualquer meio, bem como utilizá-los de outras formas lícitas.
+
+O LICENCIADO é integralmente responsável pelas informações inseridas no PROGRAMA, pelo cadastro, permissões, senhas e modo de utilização de seus usuários. O LICENCIANTE ou seus REPRESENTANTES, em hipótese alguma serão responsáveis pelo conteúdo (informações, senhas, backups, cópias de informações, etc) de qualquer SOFTWARE, não sendo, portanto, estas informações revistas em momento algum. A responsabilidade pelas informações de cada SOFTWARE é sempre de cada LICENCIADO.
+
+O LICENCIANTE, pode a qualquer tempo, suspender ou retirar qualquer SOFTWARE que esteja desrespeitando as regras de conteúdo aqui estabelecidas ou as normas legais em vigor, sem qualquer devolução de quantias pagas pelo LICENCIADO.
+
+Sendo desrespeitada qualquer regra aqui estabelecida ou sendo verificada ilegalidade, o LICENCIANTE se reserva do direito de excluir o SOFTWARE além de suspender o direito da mesmo LICENCIADO de adquirir novo SOFTWARE do LICENCIANTE. 
+Em caso de não pagamento dos valores contratados, fica o LICENCIADO sujeito a interrupção temporária ou o cancelamento definitivo dos serviços prestados pelo LICENCIANTE.
+
+Regras para utilização do sistema: As seguintes regras devem ser obedecidas pelo LICENCIADO, visando o bom e perfeito funcionamento do(s) PROGRAMA(s) (programa de computador, programa, software, sistema ou ERP) sendo expressamente proibida a execução de qualquer dos seguintes actos:
+
+- Fazer engenharia reversa, descompilar, copiar imagens, códigos ou quaisquer partes do SOFTWARE para utilização fora dele.
+- Alugar, arrendar, atribuir ou transferir o produto licenciado. 
+- Modificar o produto ou mesclar todas ou qualquer de suas partes com outro programa. 
+- Remover ou alterar qualquer aviso de copyright, marca registrada, ou outro aviso de direitos de propriedade colocados no SOFTWARE ou em parte do mesmo.
+
+Em nenhuma hipótese o LICENCIADO terá acesso ao código fonte do SOFTWARE ora licenciado, por este se tratar de propriedade intelectual do LICENCIANTE.
+
+Suporte Técnico: O Suporte Técnico fornecido ao LICENCIADO limita-se a esclarecimentos sobre o funcionamento do SOFTWARE e sua operação, assim sendo, pressupõe-se o mínimo de conhecimento do uso do computador por parte do(s) usuário(s), o que inclui o uso do computador e suas funções, o uso do sistema operacional sob o qual o sistema irá trabalhar, e do assunto que o SOFTWARE se propõe a resolver. Pressupõe-se também uma configuração adequada do computador no que se refere a utilização do SOFTWARE adquirido e o bom estado de funcionamento deste computador. O Suporte Técnico limita-se ao atendimento aos clientes, não estando incluídos neste serviço ligações telefônicas, que correm sempre por conta do LICENCIADO. O Suporte Técnico do LICENCIANTE garante atendimento gratuito ao LICENCIADO que possui seu SOFTWARE, resumidamente, nos seguintes itens: 
+- Suporte técnico via telefone em horário comercial para utilização dos recursos constantes no SOFTWARE; 
+- Suporte técnico via e-mail suporte@wit.cv para pedidos de programação do SOFTWARE e suporte a utilização dos recursos constantes no SOFTWARE.
+O Suporte técnico fornecido pelo LICENCIANTE não abrange a conexão com a internet, rede interna e computadores do LICENCIADO.
+
+Caso o LICENCIADO necessite de modificações no SOFTWARE para que este atenda melhor suas necessidades o procedimento é o seguinte:
+1. O LICENCIADO contata o LICENCIANTE e informa expressamente o que deseja;
+2. O LICENCIANTE analiza o pedido do LICENCIADO quanto a sua viabilidade técnica e envia proposta comercial com o valor e o prazo de conclusão dos serviços solicitados;
+3. Após a aprovação da proposta pelo LICENCIADO o LICENCIANTE inicia os serviços e disponibiliza as modificações em outro servidor com uma cópia do SOFTWARE para que o LICENCIADO teste e aprove as novas implementações, para que as mesmas sejam incorporadas ao sistema de produção.
+
+Todas as modificações, melhorias e correções efetuadas no SOFTWARE, mesmo que informadas, solicitadas, e eventualmente pagas pelo LICENCIADO, ficam incorporadas ao SOFTWARE e sujeitas aos termos desta LICENÇA DE USO DE SOFTWARE, podendo inclusive serem disponibilizadas pelo LICENCIANTE a outros LICENCIADOS que utilizem o mesmo modelo de SOFTWARE, assim como o LICENCIADO pode eventualmente receber melhorias de funcionamento, correções e novos recursos no SOFTWARE que utiliza.
+
+O LICENCIADO desde já concorda com modificações, implementação de novos recursos, ou ferramentas, ou melhorias ou correções no modelo de SOFTWARE que utiliza, ficando a critério do LICENCIANTE o gerenciamento e aprovação destas modificações no SOFTWARE. A instalação das atualizações é feita pelo LICENCIANTE de forma automática no SOFTWARE.
+Prazo de Vigência: O prazo para utilização do SOFTWARE é definido por tempo indeterminado, ou seja, o LICENCIADO pode utilizar o SOFTWARE pelo tempo que desejar, devendo durante o tempo que estiver utilizando o SOFTWARE se manter adimplente com o pagamento de sua utilização.
+
+Condições de Rescisão: O LICENCIADO pode rescindir este contrato a qualquer momento, desde que informe expressamente o LICENCIANTE com antecedência de 30 dias. Em nenhuma hipótese serão devolvidos quaisquer valores pagos. O LICENCIANTE pode rescindir este contrato no caso do não cumprimento pelo LICENCIADO de suas obrigações contratuais.
+
+No caso de cancelamento de serviços em que o LICENCIADO possui débitos, estes valores serão cobrados pelo LICENCIANTE posteriormente, podendo o LICENCIADO ser cobrado por serviços de proteção ao crédito em caso de inadimplência superior a 60 dias.
+
+Condições Diversas: Fica estabelecido também que o LICENCIANTE empregará sempre seus melhores esforços na manutenção e na evolução tecnológica do SOFTWARE. No caso de interrupção do funcionamento do SOFTWARE, o LICENCIANTE se compromete a repor o igual período da interrupção ao término do prazo estipulado. Em hipótese alguma o LICENCIANTE será responsável por lucros cessantes, indenizações de qualquer espécie, danos comerciais, especiais, acidentais, consequências ou outros diretos ou indiretos.
+
+O LICENCIANTE se reserva do direito de modificar este contrato de acordo com sua necessidade, com intuito de preservar sua propriedade intelectual e o bom funcionamento de todo o sistema. 
+Foro de eleição: Fica eleito, desde já, com exclusão de qualquer outro, por mais privilegiado que seja, o foro Comarca da Praia, para dirimir toda e qualquer dúvida ou pendência oriunda deste contrato.
+
+WIT Lda.
+Achada de Santo António 
+Tel.: 9936987/9125332 - www.wit.cv
