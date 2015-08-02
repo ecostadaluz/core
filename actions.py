@@ -94,6 +94,9 @@ class model_action(object):
                 final_result =  final_result[:-1]
                 result = ('string', json.dumps([final_result, result['id']]))#self.model.__get_options__
                 #print(code)
+
+
+
             else:
                 #O resultado não é 1 por isso terei que abrir o popup para filtrar melhor os resultados até encontrar o que quero, ai terei que atualizar o campo escondido e o visível carregando na imagem do certinho do registo escolhido.
                 print('o resultado não e 1 value is {var1}'.format(var1 = str(value)))
